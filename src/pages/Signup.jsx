@@ -75,6 +75,7 @@ const Signup = () => {
           <input
             type="email"
             name="email"
+            id="email"
             value={email}
             placeholder="Enter your email"
             onChange={handleOnChange}
@@ -85,6 +86,7 @@ const Signup = () => {
           <input
             type="text"
             name="username"
+            id="username"
             value={username}
             placeholder="Enter your username"
             onChange={handleOnChange}
@@ -95,6 +97,7 @@ const Signup = () => {
           <input
             type="password"
             name="password"
+            id="password"
             value={password}
             placeholder="Enter your password"
             onChange={handleOnChange}
